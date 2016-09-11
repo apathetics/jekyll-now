@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Week Three - What's the point of pointers?'
+published: true
+---
+**What on earth did I do this past week?**
+
+This week for me was mostly focused on finishing the Collatz project which I have been a bit neglectful of until the week of. It's an awful habit with my projects that I really should fix. Again, most of my time was spent on getting the workflow to operate smoothly without giving a ton of errors. I used Python to write my random list of numbers, and in the excitement of using Python which I'm much more comfortable with, I completely forgot to check for overflow numbers (oops, sorry graders). It passed all of the tests in the public test repo which I had assumed would verify that there were no overflows, but perhaps I ran it incorrectly because it never gave me a warning or error, so I had incorrectly thought there was no problem with my code.
+
+Cleaning everything up for the submission branch was strangely satisfying. Putting everything on the .gitignore and making sure only the correct files were being submitted. It gave me a sense of conclusion, and that the project was working well and about to be put to rest. I finished it a day before the due date and submitted it then, giving myself a buffer day in case I realized in my sleep that I had forgotten a requirement. And what do you know. The very next day I learned that my pull request to the public repo was rejected because of a few overflow errors which I had completely neglected to verify myself. It was a bit of a pain to regenerate the list of numbers, put them all into the test input code, and then resubmitting everything again after running them through the workflow. But that's what I get for making a mistake. I'll learn from this and make sure to verify everything independently next time instead of relying on something I wasn't sure about. 
+
+Besides the project, the week was mostly focused on pointers and references as well as the differences in types between Java, C, and C++ which was a very interesting nuance to learn because I'm still rather uncomfortable with C++ because sometimes I'm not quite sure what I don't know. To my surprise, the quiz on Friday was about pointers and references, something that I feel almost everyone in CS pretends to really, really understand but no one ever really does, and it really showed in the results of the quiz. Like oh okay, so I'm not completely alone in my confusion. I'll make sure to really sit down and play around with them a bit more in C++ to make sure I really understand them. 
+
+**What is that ominously black cloud on the horizon?**
+
+I still need to buy that textbook for OOP. But it's so far away. And I'm so lazy. I'm actually quite excited to get started on Project 2 for OOP, but at the same time, I still need to finish up on the last part of my OS project which will also give out its new project during this week. Here's to hoping that I'm actually getting better at programming and I don't progressively sink into an endless pool of projects. 
+
+I really, really need to finish reading up on C++ to really understand the differences between it and the languages I've learned so far. I feel like there are a lot of nuances that I just do not know about, and that really bothers me. Maybe do some practice problems in C++ to get more comfortable with it. BUT PROJECTS.
+
+**What to do next week?**
+
+I'm planning on reading more about the tools that Downing has given us, especially Docker which I feel like I still don't really understand its full potential or what it's really used for except for providing a container of pre-installed tools which we could easily install on our own machines. Doxygen gave me a bit of trouble with the Collatz project too, so I'd like to take a closer look at that and understand how to configure it to have documentation be more automatic and less of an afterthought.
+
+**Play of the Week**
+
+I don't know how familiar everyone is with Git and Github, but I've used it very little so far. I've read the documentation for it and for the most part, feel relatively comfortable using it in the command line. BUT. When there are a bunch of branches and collaborators with work with, and there ends up being a whole bunch of different merges from branches into dev into master and having a separate submission branch as well as resolving issues and messages, and blah blah blah, it gets a little bit overwhelming on the command line. So I like to have a nice GUI to use with Git. So far, I am very much a fan of GitKraken which is very beautifully designed and very intuitive in its click and drag usability. It's also cross-platform, so I can use it when I'm working on my Windows desktop or my laptop which dualboots Mac and Linux.
+
+[GitKraken](https://www.gitkraken.com)
+
+Give it a try if you absolutely hate using the command line, or you'd like a more graphical representation of Git.
