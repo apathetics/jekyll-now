@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Week Five - Illiterate with Iterators'
+published: true
+---
+**What on earth did I do this past week?**
+
+This week was mostly just focused on studying for my first OS exam and finishing the OS project that was due on Friday. Besides that, we spent a lot of time on the mysterious iterators which I still don't fully understand yet. Which means I'll probably be focusing on reviewing the readings for the exam this week. 
+
+**What is that ominously black cloud on the horizon?**
+
+For the most part, the OOP exam on Thursday is the only thing I've really got on my plate for the week. Which means I'll have to actually catch up on all of the cpp reading that I need to do because I don't understand how some of the structures in cpp work still. For example, the streams and iterators are still a giant mystery, and the lecture this week only served to confuse me more. What exactly is an iterator? What does it do? Why are we manipulating it? All things I should've asked or could have googled. Anyway, I'm sure I'll be well on my way to understanding as I hunker down and study for the exam. OS is done for the most part, so I can finally have time to worry about other things!
+
+Also still sick, so please go away cough. 
+
+**What to do next week?**
+
+I realize that this is a rather old and out-dated example, but I've been doing a bit of reading on scripting and the methodology behind delivering a payload. One of the more famous examples (especially if you follow hak5) is the USB Rubber Ducky. The source itself is written in C, and it's used as a way for security auditors to easily write payloads that could be delivered by simply plugging in a USB into a computer. Of course, there's too many technicalities for me to really delve into 
+all of the details. But here's a link to the Github if you would like to explore further (it has a sample of written payloads to test).
+
+[USB Rubbery Ducky](https://github.com/hak5darren/USB-Rubber-Ducky)
